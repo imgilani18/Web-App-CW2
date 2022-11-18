@@ -6,6 +6,7 @@
 
 .container {
   display: flex;
+  background-color: brown;
 }
 
 #navbar .link {
