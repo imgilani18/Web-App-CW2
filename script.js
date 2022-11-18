@@ -2,7 +2,7 @@ const store = {
   state: {
       items: [
         { subject: 'Maths', location: 'London', price: 100, spaces: 10, availability: 10},
-        { subject: 'Maths', location: 'Oxford', price: 95, spaces: 5, availability: 5},
+        { subject: 'Maths', location: 'Oxford', price: 100, spaces: 5, availability: 5},
         { subject: 'English', location: 'London', price: 80, spaces: 10, availability: 10},
         { subject: 'English', location: 'Oxford', price: 70, spaces: 5, availability: 5},
         { subject: 'Science', location: 'Coventry', price: 90, spaces: 5, availability: 5},
@@ -189,3 +189,7 @@ const app = Vue.createApp({
 
 app.use(router);
 app.mount('#app')
+
+// Reference:
+// vuejs.org/guide/introduction.html
+// stackoverflow.com/
