@@ -1,0 +1,24 @@
+<script src="https://unpkg.com/vue@3"></script>
+<script src="https://unpkg.com/vue-router@4"></script>
+<link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+<link href='/style.css' rel='stylesheet'>
+
+
+<div id="app">
+  <div id="navbar">
+    <h2 >
+      <router-link class="link" to="/">Home Page 1</router-link>
+    </h2>
+    <div>
+      <router-link v-if="cart.length" class="link" to="/cart">
+        <img class="icon" src="https://img.icons8.com/ios-glyphs/30/null/shopping-cart--v1.png"/>
+      {{ cart.map(i => i.spaces - i.availability).reduce((a,b) => a+b, 0)}}
+      </router-link>
+    </div>
+  </div>
+  <div class="container">
+    <router-view></router-view>
+  </div>
+</div>
+
+<script type="module" src="script.js"></script>
