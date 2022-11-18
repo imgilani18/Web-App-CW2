@@ -2,9 +2,9 @@ const store = {
   state: {
       items: [
         { subject: 'Maths', location: 'London', price: 100, spaces: 10, availability: 10},
-        { subject: 'Maths', location: 'Oxford', price: 100, spaces: 5, availability: 5},
+        { subject: 'Maths', location: 'Oxford', price: 95, spaces: 5, availability: 5},
         { subject: 'English', location: 'London', price: 80, spaces: 10, availability: 10},
-        { subject: 'English', location: 'Oxford', price: 80, spaces: 5, availability: 5},
+        { subject: 'English', location: 'Oxford', price: 70, spaces: 5, availability: 5},
         { subject: 'Science', location: 'Coventry', price: 90, spaces: 5, availability: 5},
         { subject: 'Science', location: 'Lancaster', price: 90, spaces: 5, availability: 5},
         { subject: 'Music', location: 'Coventry', price: 50, spaces: 5, availability: 5},
